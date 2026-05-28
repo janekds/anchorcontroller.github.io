@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anchor — Legal</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #121a2b;
+      --text: #e8eef7;
+      --muted: #9aa8bc;
+      --accent: #3b82f6;
+      --border: #243047;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    main {
+      max-width: 520px;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    a {
+      display: block;
+      padding: 0.875rem 1.25rem;
+      background: rgba(59, 130, 246, 0.12);
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      border-radius: 10px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+    a:hover { background: rgba(59, 130, 246, 0.22); }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); border: none; background: none; padding: 0; display: inline; font-weight: 400; }
+    footer a:hover { color: var(--accent); background: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Anchor</h1>
+    <p>Aquarium controller app — legal documents</p>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+    <footer>
+      Questions? <a href="mailto:janekdesilva12@gmail.com">janekdesilva12@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
